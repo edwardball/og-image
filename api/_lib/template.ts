@@ -135,7 +135,7 @@ function getImage(src: string, width ='auto', height = '225') {
     return `<img
         class="logo"
         alt="Generated Image"
-        src="${sanitizeHtml(src)}"
+        src="https://academo.org/flashcards/flashcards-icon.png"
         width="${sanitizeHtml(width)}"
         height="${sanitizeHtml(height)}"
     />`

@@ -118,7 +118,7 @@ export function getHtml(parsedReq: ParsedRequest) {
             <div class="spacer">
             <div class="logo-wrapper">
                 ${images.map((img, i) =>
-                    getPlusSign(i) + getImage(img, widths[i], heights[i])
+                    getPlusSign(i) + getImage(widths[i], heights[i])
                 ).join('')}
             </div>
             <div class="spacer">
